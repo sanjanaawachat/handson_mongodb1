@@ -1,0 +1,396 @@
+//----------------------handsassign_mongodb1--------------------//
+
+use humanresource
+switched to db humanresource
+humanresource> db.employee.insertMany([{
+...
+...   "firstName": "John",
+...   "lastName": "Doe",
+...   "salary": "25000",
+...   "department": "HR",
+...   "lastCompany": "X",
+...   "lastSalary": "10000",
+...   "overallExp": "2",
+...   "contactInfo": "1234567890",
+...   "yearGrad": "2016",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Rohan",
+...   "lastName": "Jame",
+...   "salary": "30000",
+...   "department": "Technical",
+...   "lastCompany": "Y",
+...   "lastSalary": "15000",
+...   "overallExp": "1",
+...   "contactInfo": "1234567860",
+...   "yearGrad": "2015",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Jame",
+...   "lastName": "Doe",
+...   "salary": "35000",
+...   "department": "Accounts",
+...   "lastCompany": "Z",
+...   "lastSalary": "20000",
+...   "overallExp": "1",
+...   "contactInfo": "123567890",
+...   "yearGrad": "2019",
+...   "gradStream": "ECE"
+... },{
+...
+...   "firstName": "Sao",
+...   "lastName": "Avika",
+...   "salary": "30000",
+...   "department": "Sales",
+...   "lastCompany": "Y",
+...   "lastSalary": "15000",
+...   "overallExp": "2",
+...   "contactInfo": "1234567860",
+...   "yearGrad": "2015",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Jame",
+...   "lastName": "roh",
+...   "salary": "35000",
+...   "department": "Accounts",
+...   "lastCompany": "Z",
+...   "lastSalary": "15000",
+...   "overallExp": "2",
+...   "contactInfo": "123567890",
+...   "yearGrad": "2019",
+...   "gradStream": "EEE"
+... },{
+...
+...   "firstName": "Rohan",
+...   "lastName": "Jame",
+...   "salary": "30000",
+...   "department": "Technical",
+...   "lastCompany": "Y",
+...   "lastSalary": "15000",
+...   "overallExp": "1",
+...   "contactInfo": "1234567860",
+...   "yearGrad": "2015",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Jame",
+...   "lastName": "Doe",
+...   "salary": "35000",
+...   "department": "Accounts",
+...   "lastCompany": "Z",
+...   "lastSalary": "20000",
+...   "overallExp": "1",
+...   "contactInfo": "123567890",
+...   "yearGrad": "2019",
+...   "gradStream": "ECE"
+... },{
+...
+...   "firstName": "Sao",
+...   "lastName": "Avika",
+...   "salary": "30000",
+...   "department": "Sales",
+...   "lastCompany": "Y",
+...   "lastSalary": "15000",
+...   "overallExp": "2",
+...   "contactInfo": "1234567860",
+...   "yearGrad": "2015",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Jame",
+...   "lastName": "Doe",
+...   "salary": "35000",
+...   "department": "Accounts",
+...   "lastCompany": "Z",
+...   "lastSalary": "15000",
+...   "overallExp": "2",
+...   "contactInfo": "123567890",
+...   "yearGrad": "2019",
+...   "gradStream": "EEE"
+... },{
+...
+...   "firstName": "Rohan",
+...   "lastName": "Jame",
+...   "salary": "30000",
+...   "department": "Technical",
+...   "lastCompany": "Y",
+...   "lastSalary": "15000",
+...   "overallExp": "1",
+...   "contactInfo": "1234567860",
+...   "yearGrad": "2015",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Jame",
+...   "lastName": "Doe",
+...   "salary": "35000",
+...   "department": "Accounts",
+...   "lastCompany": "Z",
+...   "lastSalary": "20000",
+...   "overallExp": "1",
+...   "contactInfo": "123567890",
+...   "yearGrad": "2019",
+...   "gradStream": "ECE"
+... },{
+...
+...   "firstName": "Sao",
+...   "lastName": "Avika",
+...   "salary": "30000",
+...   "department": "Sales",
+...   "lastCompany": "Y",
+...   "lastSalary": "15000",
+...   "overallExp": "2",
+...   "contactInfo": "1234567860",
+...   "yearGrad": "2015",
+...   "gradStream": "CSE"
+... },{
+...
+...   "firstName": "Jame",
+...   "lastName": "Doe",
+...   "salary": "35000",
+...   "department": "Accounts",
+...   "lastCompany": "Z",
+...   "lastSalary": "15000",
+...   "overallExp": "2",
+...   "contactInfo": "123567890",
+...   "yearGrad": "2019",
+...   "gradStream": "EEE"
+... }])
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId("6347acea78e66b6d197954d8"),
+    '1': ObjectId("6347acea78e66b6d197954d9"),
+    '2': ObjectId("6347acea78e66b6d197954da"),
+    '3': ObjectId("6347acea78e66b6d197954db"),
+    '4': ObjectId("6347acea78e66b6d197954dc"),
+    '5': ObjectId("6347acea78e66b6d197954dd"),
+    '6': ObjectId("6347acea78e66b6d197954de"),
+    '7': ObjectId("6347acea78e66b6d197954df"),
+    '8': ObjectId("6347acea78e66b6d197954e0"),
+    '9': ObjectId("6347acea78e66b6d197954e1"),
+    '10': ObjectId("6347acea78e66b6d197954e2"),
+    '11': ObjectId("6347acea78e66b6d197954e3"),
+    '12': ObjectId("6347acea78e66b6d197954e4")
+  }
+}
+humanresource> db.employee.find().pretty()
+[
+  {
+    _id: ObjectId("6347acea78e66b6d197954d8"),
+    firstName: 'John',
+    lastName: 'Doe',
+    salary: '25000',
+    department: 'HR',
+    lastCompany: 'X',
+    lastSalary: '10000',
+    overallExp: '2',
+    contactInfo: '1234567890',
+    yearGrad: '2016',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954d9"),
+    firstName: 'Rohan',
+    lastName: 'Jame',
+    salary: '30000',
+    department: 'Technical',
+    lastCompany: 'Y',
+    lastSalary: '15000',
+    overallExp: '1',
+    contactInfo: '1234567860',
+    yearGrad: '2015',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954da"),
+    firstName: 'Jame',
+    lastName: 'Doe',
+    salary: '35000',
+    department: 'Accounts',
+    lastCompany: 'Z',
+    lastSalary: '20000',
+    overallExp: '1',
+    contactInfo: '123567890',
+    yearGrad: '2019',
+    gradStream: 'ECE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954db"),
+    firstName: 'Sao',
+    lastName: 'Avika',
+    salary: '30000',
+    department: 'Sales',
+    lastCompany: 'Y',
+    lastSalary: '15000',
+    overallExp: '2',
+    contactInfo: '1234567860',
+    yearGrad: '2015',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954dc"),
+    firstName: 'Jame',
+    lastName: 'roh',
+    salary: '35000',
+    department: 'Accounts',
+    lastCompany: 'Z',
+    lastSalary: '15000',
+    overallExp: '2',
+    contactInfo: '123567890',
+    yearGrad: '2019',
+    gradStream: 'EEE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954dd"),
+    firstName: 'Rohan',
+    lastName: 'Jame',
+    salary: '30000',
+    department: 'Technical',
+    lastCompany: 'Y',
+    lastSalary: '15000',
+    overallExp: '1',
+    contactInfo: '1234567860',
+    yearGrad: '2015',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954de"),
+    firstName: 'Jame',
+    lastName: 'Doe',
+    salary: '35000',
+    department: 'Accounts',
+    lastCompany: 'Z',
+    lastSalary: '20000',
+    overallExp: '1',
+    contactInfo: '123567890',
+    yearGrad: '2019',
+    gradStream: 'ECE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954df"),
+    firstName: 'Sao',
+    lastName: 'Avika',
+    salary: '30000',
+    department: 'Sales',
+    lastCompany: 'Y',
+    lastSalary: '15000',
+    overallExp: '2',
+    contactInfo: '1234567860',
+    yearGrad: '2015',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954e0"),
+    firstName: 'Jame',
+    lastName: 'Doe',
+    salary: '35000',
+    department: 'Accounts',
+    lastCompany: 'Z',
+    lastSalary: '15000',
+    overallExp: '2',
+    contactInfo: '123567890',
+    yearGrad: '2019',
+    gradStream: 'EEE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954e1"),
+    firstName: 'Rohan',
+    lastName: 'Jame',
+    salary: '30000',
+    department: 'Technical',
+    lastCompany: 'Y',
+    lastSalary: '15000',
+    overallExp: '1',
+    contactInfo: '1234567860',
+    yearGrad: '2015',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954e2"),
+    firstName: 'Jame',
+    lastName: 'Doe',
+    salary: '35000',
+    department: 'Accounts',
+    lastCompany: 'Z',
+    lastSalary: '20000',
+    overallExp: '1',
+    contactInfo: '123567890',
+    yearGrad: '2019',
+    gradStream: 'ECE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954e3"),
+    firstName: 'Sao',
+    lastName: 'Avika',
+    salary: '30000',
+    department: 'Sales',
+    lastCompany: 'Y',
+    lastSalary: '15000',
+    overallExp: '2',
+    contactInfo: '1234567860',
+    yearGrad: '2015',
+    gradStream: 'CSE'
+  },
+  {
+    _id: ObjectId("6347acea78e66b6d197954e4"),
+    firstName: 'Jame',
+    lastName: 'Doe',
+    salary: '35000',
+    department: 'Accounts',
+    lastCompany: 'Z',
+    lastSalary: '15000',
+    overallExp: '2',
+    contactInfo: '123567890',
+    yearGrad: '2019',
+    gradStream: 'EEE'
+  }
+]
+humanresource>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
